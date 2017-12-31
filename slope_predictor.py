@@ -8,4 +8,4 @@ y_test=[[0.82],[4.4],[11.3]]
 predictions=model.predict(X_test)
 for i,p in enumerate(predictions):
     print('Predicted :%s, target :%s'%(p,y_test[i]))
-print('R-squared: %.3f'%model.score(X_test,y_test)
+print('R-squared: %.3f'%model.score(X_test,y_test))
